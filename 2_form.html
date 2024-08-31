@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+
+    <!--    
+          label:
+          ekranda yazıyı gösterir 
+          for özelliği ile input ile yazıyı bağlar 
+    -->
+
+    <form>
+        <label for="ad1">Kullanıcı Adı</label>
+        <br>
+
+        <input type="text" id="ad1" placeholder="kullanıcı adı">
+        <br>
+        <br>
+        <label for="sifre1">Şifre</label>
+        <br>
+        <input type="password" id="sifre1" placeholder="şifre">
+        <br><br>
+        <input type="submit" value="GİRİŞ YAP">
+
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+
+    <form method="get" action="link.html">
+        <label for="ad2">Adınız</label>
+
+        <input type="text" id="ad2" name="ad" placeholder="Adınızı giriniz">
+        <br>
+        <label for="sifre2">Şifrenizi Giriniz</label>
+
+        <input type="password" name="password" placeholder="Şifrenizi giriniz" id="sifre2">
+        <br>
+        <input type="submit">
+    </form>
+
+    <br>
+    <hr>
+    <form method="get" action="link.html"><input type="button" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="color" name="" id="">
+        <input type="date" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="datetime-local">
+        <input type="file" name="" id="">
+        <input type="hidden" name="" id="">
+        <input type="image" name="" id="">
+        <input required type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range" id="rangee">
+        <input required type="email" name="" id="">
+        <input type="submit" value="yolla">
+        <input type="reset"></input>
+        <input type="search">
+        <input type="url">
+    </form>
+
+
+    <br>
+    <hr>
+    <br>
+
+
+
+    <form action="">
+        <label for="cars">araba seç:</label>
+        <select name="cars" id="">
+            <option>bmw</option>
+            <option>mercedes</option>
+        </select>
+        <br>
+
+        <label for="">adres: </label>
+        <br><textarea cols="30" rows="10"></textarea>
+        <br>
+        <label>tarayıcılar: </label>
+        <input type="text" list="browsers">
+        <datalist id="browsers">
+            <option value="chrome">chrome</option>
+            <option value="firefox">firefox</option>
+            <option value="edge">edge</option>
+            <option value="opera">opera</option>
+            <option value="safari">safari</option>
+        </datalist>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
